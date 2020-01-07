@@ -1,0 +1,15 @@
+@import "../global.scss";
+
+.footer {
+  text-align: center;
+  font-size: $base-size;
+  a {
+    margin-right: 10px;
+    @include mobile-large {
+      margin-right: 18px;
+    }
+  }
+  &_social {
+    font-size: $base-size * 1.2;
+  }
+}
