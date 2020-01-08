@@ -7,8 +7,7 @@
   text-transform: uppercase;
   position: relative;
   margin: 10px 0;
-  padding: 8px 0;
-  padding-left: 15px;
+  padding: 8px 0 8px 8px;
   border-left: 6px solid $color-yellow;
   border-bottom: 6px solid $color-yellow;
   &_name {
@@ -128,6 +127,10 @@
   }
   @include mobile-large {
     width: 65%;
+    padding: 8px 0 8px 15px;
+  }
+  @include tablet-large {
+    padding: 8px 0 10px 20px;
   }
 }
 
