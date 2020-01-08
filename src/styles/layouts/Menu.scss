@@ -14,9 +14,11 @@
   &_name {
     font-family: $font-header;
     font-size: $base-size * 2;
-    color: $color-text-dark;
     letter-spacing: 2px;
     line-height: 1;
+    a {
+      color: $color-text-dark;
+    }
     @include mobile-large {
       font-size: $base-size * 2.2;
     }

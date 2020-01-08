@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "../../styles/layouts/Menu.scss";
 
 //fontawesome
@@ -39,7 +39,9 @@ class Menu extends React.Component {
     return (
       <>
         <div className="title">
-          <span className="title_name">Paulina Stefańska</span>
+          <span className="title_name">
+            <Link to="/">Paulina Stefańska</Link>
+          </span>
           <span className="title_subtitle">junior front-end developer</span>
           <div className="title_hamburger" onClick={this.handleMenuClick}>
             <div
