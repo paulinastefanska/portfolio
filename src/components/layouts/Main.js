@@ -7,6 +7,8 @@ import PortfolioPage from "../pages/PortfolioPage";
 import ContactPage from "../pages/ContactPage";
 import NotFoundPage from "../pages/NotFoundPage";
 
+import "../../styles/layouts/Main.scss";
+
 const Page = () => {
   return (
     <>
