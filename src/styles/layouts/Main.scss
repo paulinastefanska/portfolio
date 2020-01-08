@@ -1,0 +1,7 @@
+@import "../global.scss";
+
+main {
+  @include tablet-large {
+    border-right: 6px solid $color-yellow;
+  }
+}
