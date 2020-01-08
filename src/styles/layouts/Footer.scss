@@ -1,15 +1,45 @@
 @import "../global.scss";
 
 .footer {
-  text-align: center;
-  font-size: $base-size;
-  a {
-    margin-right: 10px;
-    @include mobile-large {
-      margin-right: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+  border-top: 4px solid $color-yellow;
+  li {
+    list-style: none;
+    font-size: $base-size;
+    .footer_menu.active {
+      font-weight: bold;
     }
   }
-  &_social {
+  @include mobile-large {
+    border-top: 6px solid $color-yellow;
+    padding-top: 15px;
+  }
+}
+.footer_links {
+  text-align: center;
+  font-size: $base-size;
+  margin: 10px;
+  a {
+    margin-right: 14px;
+    @include mobile-large {
+      margin-right: 20px;
+    }
+  }
+  .footer_social {
     font-size: $base-size * 1.2;
+    &--hidden {
+      display: none;
+      @include mobile-large {
+        display: inline;
+      }
+    }
+  }
+  @include mobile-large {
+    margin-top: 15px;
   }
 }
