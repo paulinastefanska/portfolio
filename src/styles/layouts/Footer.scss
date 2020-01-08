@@ -11,27 +11,43 @@
   li {
     list-style: none;
     font-size: $base-size;
-    .footer_menu.active {
-      font-weight: bold;
+    @include mobile-large {
+      font-size: $base-size * 1.2;
+    }
+    .footer_menu {
+      color: $color-text-light;
+      &.active {
+        font-weight: bold;
+      }
+    }
+    @include tablet-small {
+      margin: 0 25px;
     }
   }
   @include mobile-large {
     border-top: 6px solid $color-yellow;
     padding-top: 15px;
   }
+  @include tablet-small {
+    justify-content: center;
+  }
 }
 .footer_links {
   text-align: center;
   font-size: $base-size;
   margin: 10px;
+  color: $color-text-light;
   a {
     margin-right: 14px;
+    color: $color-text-light;
     @include mobile-large {
       margin-right: 20px;
     }
   }
   .footer_social {
     font-size: $base-size * 1.2;
+    color: $color-text-light;
+    opacity: 0.9;
     &--hidden {
       display: none;
       @include mobile-large {
