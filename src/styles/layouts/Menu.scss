@@ -137,23 +137,24 @@
 .menu {
   position: absolute;
   left: -100vw;
-  width: 94vw;
+  width: 100vw;
   z-index: 99;
-  padding: 0 2vw;
   text-align: right;
   background-color: $color-background;
   transition: $transition;
   &_list {
     list-style: none;
-    padding: 10px 0;
+    padding: 10px 20px 10px 0;
     margin: 0;
     @include mobile-large {
       display: flex;
       justify-content: space-evenly;
+      padding: 0;
+      padding-top: 10px;
     }
     @include tablet-large {
       justify-content: center;
-      padding: 18px 0;
+      padding: 18px 0 10px 0;
     }
   }
   &_item {
@@ -208,9 +209,9 @@
   }
   @include tablet-large {
     z-index: 0;
-    border-right: 6px solid $color-grey;
   }
 }
 .menu--open {
   left: 0;
+  border-bottom: 6px solid $color-yellow;
 }
