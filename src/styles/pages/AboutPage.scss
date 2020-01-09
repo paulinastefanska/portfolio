@@ -1,0 +1,64 @@
+@import "../global.scss";
+
+.about {
+  font-size: $base-size * 1.1;
+  line-height: 1.4;
+  text-align: center;
+  .row {
+    justify-content: center;
+  }
+  [class*="col-"] {
+    margin: 15px 5px;
+    border: 6px solid $color-yellow;
+    @include mobile-large {
+      margin: 20px;
+    }
+    @include tablet-large {
+      padding: 8px 20px;
+    }
+  }
+  .col-md-5:nth-child(1) {
+    height: 50%;
+  }
+  .row:nth-child(2) {
+    .col-md-5:nth-child(2) {
+      height: 50%;
+    }
+  }
+  &_title {
+    display: block;
+    width: auto;
+    z-index: 1;
+    background-color: $color-background;
+    font-size: $base-size * 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    position: absolute;
+    top: -14px;
+    left: 18px;
+  }
+  &_icon {
+    color: $color-grey;
+    margin-right: 10px;
+  }
+  &_text {
+    margin-top: 16px;
+  }
+  &_text-list {
+    padding-left: 20px;
+  }
+  &_curiosity {
+    font-size: $base-size * 0.9;
+    text-align: center;
+    @include tablet-small {
+      width: 80%;
+      margin: 20px auto;
+      margin-top: 0;
+    }
+  }
+  &_star {
+    font-size: $base-size * 1.2;
+  }
+}
