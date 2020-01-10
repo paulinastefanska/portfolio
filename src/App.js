@@ -4,15 +4,17 @@ import Menu from "./components/layouts/Menu";
 import Main from "./components/layouts/Main";
 import Footer from "./components/layouts/Footer";
 
+import { Container } from "react-bootstrap";
+
 class App extends Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
-        <div className="container_fluid">
-          <header>{<Menu />}</header>
-          <main>{<Main />}</main>
-          <footer>{<Footer />}</footer>
-        </div>
+        <Container>
+          <Menu />
+          <Main />
+          <Footer />
+        </Container>
       </Router>
     );
   }
