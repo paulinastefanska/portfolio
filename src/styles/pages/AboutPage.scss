@@ -3,26 +3,36 @@
 .about {
   font-size: $base-size * 1.1;
   line-height: 1.4;
-  text-align: center;
+  position: relative;
   .row {
     justify-content: center;
+    @include tablet-small {
+      position: relative;
+    }
+  }
+  .row:nth-child(1) {
+    [class*="col-"]:nth-child(1) {
+      height: 50%;
+    }
+    @include tablet-small {
+      align-items: flex-end;
+    }
+  }
+  .row:nth-child(2) {
+    [class*="col-"]:nth-child(2) {
+      height: 50%;
+    }
   }
   [class*="col-"] {
     margin: 15px 5px;
     border: 6px solid $color-yellow;
+    box-shadow: 10px 10px 20px -8px rgba(17, 17, 17, 0.55);
+    background-color: $color-background;
     @include mobile-large {
       margin: 20px;
     }
     @include tablet-large {
       padding: 8px 20px;
-    }
-  }
-  .col-md-5:nth-child(1) {
-    height: 50%;
-  }
-  .row:nth-child(2) {
-    .col-md-5:nth-child(2) {
-      height: 50%;
     }
   }
   &_title {
@@ -33,11 +43,13 @@
     font-size: $base-size * 1.2;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1px;
     margin-bottom: 10px;
     padding-right: 15px;
     position: absolute;
     top: -14px;
     left: 18px;
+    border-radius: 55px;
   }
   &_icon {
     color: $color-grey;
@@ -48,17 +60,56 @@
   }
   &_text-list {
     padding-left: 20px;
+    list-style-type: square;
   }
   &_curiosity {
     font-size: $base-size * 0.9;
     text-align: center;
+    margin-top: 10px;
     @include tablet-small {
       width: 80%;
       margin: 20px auto;
       margin-top: 0;
     }
+    @include tablet-large {
+      width: 88%;
+      font-size: $base-size * 1.2;
+    }
   }
   &_star {
     font-size: $base-size * 1.2;
+    @include tablet-large {
+      font-size: $base-size * 1.4;
+    }
+  }
+  @include tablet-large {
+    font-size: $base-size * 1.4;
+  }
+}
+
+//images styles
+.flag_start {
+  @include tablet-small {
+    position: absolute;
+    height: 55%;
+    left: 5%;
+    top: 3%;
+  }
+  @include laptop {
+    height: 65%;
+    left: 11%;
+  }
+}
+.point_now {
+  @include tablet-small {
+    position: absolute;
+    height: 50%;
+    right: 17%;
+    bottom: 4%;
+    z-index: -1;
+  }
+  @include laptop {
+    height: 52%;
+    right: 21%;
   }
 }

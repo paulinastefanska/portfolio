@@ -22,18 +22,11 @@ body {
   overflow-y: scroll;
 }
 
-.container_fluid {
-  width: 100%;
-  max-width: 1000px;
+.container {
+  max-width: 1200px;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 15px 20px;
   display: flex;
   flex-direction: column;
-}
-
-main {
-  flex-grow: 1;
 }
 
 a,
