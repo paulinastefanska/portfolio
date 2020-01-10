@@ -11,7 +11,7 @@ import "../../styles/layouts/Main.scss";
 
 const Page = () => {
   return (
-    <>
+    <main className="main">
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/about" component={AboutPage} />
@@ -20,7 +20,7 @@ const Page = () => {
         <Route path="/contact" component={ContactPage} />
         <Route component={NotFoundPage} />
       </Switch>
-    </>
+    </main>
   );
 };
 
