@@ -5,11 +5,15 @@ import { Row, Col } from "react-bootstrap";
 //fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
+//images
+import flag from "../../images/flag.svg";
+import point from "../../images/point.svg";
 
 const AboutPage = () => {
   return (
     <section className="about">
       <Row>
+        <img src={flag} alt="flag" className="flag_start"></img>
         <Col md={5}>
           <span className="about_title">
             <FontAwesomeIcon className="about_icon" icon={faCircle} /> Start
@@ -29,9 +33,9 @@ const AboutPage = () => {
           </span>
           <p className="about_text">
             Na szczęście na naukę nigdy nie jest za późno, także od początku
-            2019 roku systematycznie poszerzam swoje umiejętności, ucząc się.
-            Ukończyłam intensywną szkołę programowania – bootcamp Web Developer
-            Plus (front-end + back-end). Mam też za sobą klika kursów m.in.
+            2019 roku systematycznie poszerzam swoje umiejętności. Ukończyłam
+            intensywną szkołę programowania – bootcamp Web Developer Plus
+            (front-end + back-end). Mam też za sobą klika kursów m.in.
             Programowanie w JavaScript, React od podstaw, Node.js, Express,
             MongoDB oraz Zaawansowane projekty CSS i JavaScript. Obecnie biorę
             udział w programie: <q>Programiści dla Szczecina</q>- kurs pt.
@@ -66,11 +70,10 @@ const AboutPage = () => {
                 Zdanie: <q>Nie ma rzeczy niemożliwych</q> stało się moim motto.
               </li>
               <li>
-                Bliskie jest mi <q>pixel perfect</q> - jestem dokładna w tym co
-                robię.
+                Bliskie jest mi <q>pixel perfect</q> - jestem dokładna.
               </li>
               <li>
-                W programowaniu zwykle towarzyszy mi czekolada, jak się okazało
+                W programowaniu zwykle towarzyszy mi czekolada - jak się okazało
                 pasuje jak ulał*.
               </li>
             </ul>
@@ -87,7 +90,9 @@ const AboutPage = () => {
             projektach typu open source - JavaScript lub React.
           </p>
         </Col>
+        <img src={point} alt="point" className="point_now"></img>
       </Row>
+
       <p className="about_curiosity">
         <span className="about_star">* </span>
         <q>
