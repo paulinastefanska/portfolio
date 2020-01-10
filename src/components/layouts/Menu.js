@@ -37,7 +37,7 @@ class Menu extends React.Component {
     ));
 
     return (
-      <>
+      <header>
         <div className="title">
           <span className="title_name">
             <Link to="/">Paulina Stefańska</Link>
@@ -75,7 +75,7 @@ class Menu extends React.Component {
         <nav className={`menu${openMenu ? " menu--open" : ""}`}>
           <ul className="menu_list">{navigation}</ul>
         </nav>
-      </>
+      </header>
     );
   }
 }
