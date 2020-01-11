@@ -34,7 +34,7 @@
   }
   &_subtitle {
     font-size: $base-size * 0.7;
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 2px;
     @include mobile-large {
       font-size: $base-size * 0.9;
@@ -169,7 +169,7 @@
   &_item {
     padding: 4px;
     margin: 15px 0;
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
     a {
       border-left: 6px solid $color-background;
