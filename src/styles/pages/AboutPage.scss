@@ -10,15 +10,15 @@
       position: relative;
     }
   }
-  .row:nth-child(1) {
-    [class*="col-"]:nth-child(1) {
+  .row:nth-child(2) {
+    [class*="col-"]:nth-child(2) {
       height: 50%;
     }
     @include tablet-small {
       align-items: flex-end;
     }
   }
-  .row:nth-child(2) {
+  .row:nth-child(3) {
     [class*="col-"]:nth-child(2) {
       height: 50%;
     }
@@ -41,9 +41,8 @@
     z-index: 1;
     background-color: $color-background;
     font-size: $base-size * 1.2;
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1px;
     margin-bottom: 10px;
     padding-right: 15px;
     position: absolute;
@@ -87,26 +86,48 @@
   }
 }
 
-//images styles
-.flag_start {
+//images
+.mobile-line {
+  position: absolute;
+  left: 65%;
+  top: 5%;
+  height: 87%;
   @include tablet-small {
-    position: absolute;
-    height: 55%;
-    left: 5%;
-    top: 3%;
-  }
-  @include laptop {
-    height: 65%;
-    left: 11%;
+    display: none;
   }
 }
-.point_now {
+.flag_start {
+  margin-right: 20%;
   @include tablet-small {
     position: absolute;
     height: 50%;
-    right: 17%;
+    left: 6%;
+    top: 2%;
+    margin: 0;
+  }
+  @include tablet-large {
+    left: 10%;
+    top: 3%;
+  }
+  @include laptop {
+    height: 55%;
+    left: 13%;
+    top: 1%;
+  }
+}
+.point_now {
+  margin-right: 20%;
+  @include tablet-small {
+    position: absolute;
+    height: 50%;
+    right: 16%;
     bottom: 4%;
     z-index: -1;
+    margin: 0;
+  }
+  @include tablet-large {
+    right: 17%;
+    bottom: 3%;
   }
   @include laptop {
     height: 52%;

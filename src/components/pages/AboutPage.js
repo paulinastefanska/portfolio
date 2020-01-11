@@ -8,10 +8,12 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 //images
 import flag from "../../images/flag.svg";
 import point from "../../images/point.svg";
+import mLine from "../../images/mobile-line.svg";
 
 const AboutPage = () => {
   return (
     <section className="about">
+      <img src={mLine} alt="mobile-line" className="mobile-line"></img>
       <Row>
         <img src={flag} alt="flag" className="flag_start"></img>
         <Col md={5}>
@@ -70,7 +72,7 @@ const AboutPage = () => {
                 Zdanie: <q>Nie ma rzeczy niemożliwych</q> stało się moim motto.
               </li>
               <li>
-                Bliskie jest mi <q>pixel perfect</q> - jestem dokładna.
+                Bliskie jest mi <q>pixel perfect</q>.
               </li>
               <li>
                 W programowaniu zwykle towarzyszy mi czekolada - jak się okazało

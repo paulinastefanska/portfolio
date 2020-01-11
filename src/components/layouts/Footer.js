@@ -13,7 +13,7 @@ const Footer = () => {
       <p className="footer_socials">
         &copy;2020{" "}
         <a href="https://github.com/paulinastefanska/portfolio">
-          <b>Paulina Stefańska</b>
+          Paulina Stefańska
         </a>
         <a className="footer_social" href="https://github.com/paulinastefanska">
           <FontAwesomeIcon icon={faGithub} />
