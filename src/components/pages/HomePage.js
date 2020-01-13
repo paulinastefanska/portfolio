@@ -13,10 +13,10 @@ const HomePage = () => {
           Nazywam się Paulina Stefańska. Około 1.5 roku temu postanowiłam zostać
           Front-end Developerem. Pomysł nie wziął się znikąd, kiedyś miałam
           troszkę styczności z kodem, a przez ostatnie lata współpraca z działem
-          IT utwierdziła mnie w tym przekonaniu. Od roku systematycznie uczę się
+          IT tylko mnie o tym przekonała. Od roku systematycznie uczę się
           programowania po stronie front-endu, wiedzę mogę poprzeć licznymi
           projektami oraz kursami. Aktualnie szukam pierwszej pracy w IT.
-          Chętnie wezmę też udział w projektach open source.
+          Chętnie wezmę też udział w projektach open source JavaScript, React.
         </p>
       </div>
     </section>
