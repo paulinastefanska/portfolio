@@ -10,7 +10,7 @@
       position: relative;
     }
   }
-  .row:nth-child(2) {
+  .row:nth-child(3) {
     [class*="col-"]:nth-child(2) {
       height: 50%;
     }
@@ -18,7 +18,7 @@
       align-items: flex-end;
     }
   }
-  .row:nth-child(3) {
+  .row:nth-child(4) {
     [class*="col-"]:nth-child(2) {
       height: 50%;
     }
@@ -94,6 +94,16 @@
   height: 87%;
   @include tablet-small {
     display: none;
+  }
+}
+.laptop-line {
+  display: none;
+  position: absolute;
+  height: 72%;
+  top: 13%;
+  right: 2%;
+  @include laptop {
+    display: block;
   }
 }
 .flag_start {

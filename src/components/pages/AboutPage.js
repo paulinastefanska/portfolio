@@ -9,11 +9,13 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import flag from "../../images/flag.svg";
 import point from "../../images/point.svg";
 import mLine from "../../images/mobile-line.svg";
+import lLine from "../../images/laptop-line.svg";
 
 const AboutPage = () => {
   return (
     <section className="about">
       <img src={mLine} alt="mobile-line" className="mobile-line"></img>
+      <img src={lLine} alt="laptop-line" className="laptop-line"></img>
       <Row>
         <img src={flag} alt="flag" className="flag_start"></img>
         <Col md={5}>
