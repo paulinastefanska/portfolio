@@ -1,0 +1,36 @@
+@import "../global.scss";
+
+.skills {
+  text-align: center;
+  &_title {
+    display: inline-block;
+    width: auto;
+    font-size: $base-size * 1.2;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $color-text-light;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 8px 10px;
+    border-bottom: 6px solid $color-grey;
+    @include tablet-large {
+      font-size: $base-size * 1.4;
+    }
+  }
+  &_title:nth-child(1) {
+    margin-top: 10px;
+  }
+  &_icon {
+    font-size: $base-size * 4.4;
+    color: $color-yellow;
+    @include tablet-large {
+      font-size: $base-size * 4.8;
+    }
+  }
+  &_lang {
+    font-size: $base-size * 1.2;
+    @include tablet-large {
+      font-size: $base-size * 1.4;
+    }
+  }
+}
