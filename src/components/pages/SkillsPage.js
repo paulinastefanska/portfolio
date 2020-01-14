@@ -4,7 +4,11 @@ import "../../styles/pages/SkillsPage.scss";
 import { Row, Col } from "react-bootstrap";
 //fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLayerGroup } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLayerGroup,
+  faDatabase,
+  faUsers
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faHtml5,
   faCss3Alt,
@@ -19,7 +23,8 @@ import {
   faYarn,
   faJira,
   faSlack,
-  faAdobe
+  faAdobe,
+  faPhp
 } from "@fortawesome/free-brands-svg-icons";
 
 const SkillsPage = () => {
@@ -98,6 +103,21 @@ const SkillsPage = () => {
         <Col md={4}>
           <FontAwesomeIcon icon={faAdobe} className="skills_icon" />
           <p className="skills_lang">Photoshop, Illustrator</p>
+        </Col>
+      </Row>
+      <p className="skills_title">Aktualnie uczę się</p>
+      <Row>
+        <Col md={4}>
+          <FontAwesomeIcon icon={faPhp} className="skills_icon" />
+          <p className="skills_lang">PHP</p>
+        </Col>
+        <Col md={4}>
+          <FontAwesomeIcon icon={faDatabase} className="skills_icon" />
+          <p className="skills_lang">MySQL</p>
+        </Col>
+        <Col md={4}>
+          <FontAwesomeIcon icon={faUsers} className="skills_icon" />
+          <p className="skills_lang">Scrum</p>
         </Col>
       </Row>
     </section>
