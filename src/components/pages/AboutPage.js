@@ -91,7 +91,7 @@ const AboutPage = () => {
             Nadszedł czas, aby zdobyć doświadczenie i współtworzyć prawdziwe
             projekty. Aktualnie poszukuję pierwszej pracy w IT lub stażu jako
             Junior Front-end Developer. Ponadto chętnie wezmę udział w
-            projektach typu open source - JavaScript lub React.
+            projektach typu open-source JavaScript lub React.
           </p>
         </Col>
         <img src={point} alt="point" className="point_now"></img>

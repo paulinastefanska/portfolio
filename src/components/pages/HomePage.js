@@ -14,9 +14,9 @@ const HomePage = () => {
           Front-end Developerem. Pomysł nie wziął się znikąd, kiedyś miałam
           troszkę styczności z kodem, a przez ostatnie lata współpraca z działem
           IT tylko mnie o tym przekonała. Od roku systematycznie uczę się
-          programowania po stronie front-endu, wiedzę mogę poprzeć licznymi
+          programowania po stronie front-endu. Wiedzę mogę poprzeć licznymi
           projektami oraz kursami. Aktualnie szukam pierwszej pracy w IT.
-          Chętnie wezmę też udział w projektach open source JavaScript, React.
+          Chętnie wezmę też udział w projektach open-source.
         </p>
       </div>
     </section>
