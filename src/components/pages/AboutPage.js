@@ -38,15 +38,16 @@ const AboutPage = () => {
           <p className="about_text">
             Na szczęście na naukę nigdy nie jest za późno, także od początku
             2019 roku systematycznie poszerzam swoje umiejętności. Ukończyłam
-            intensywną szkołę programowania – bootcamp Web Developer Plus
-            (front-end + back-end). Mam też za sobą klika kursów m.in.
-            Programowanie w JavaScript, React od podstaw, Node.js, Express,
-            MongoDB oraz Zaawansowane projekty CSS i JavaScript. Obecnie biorę
-            udział w programie: <q>Programiści dla Szczecina</q>- kurs pt.
+            intensywny 9-miesięczny kurs programowania pod opieką indywidualnego
+            mentora – Bootcamp Web Developer Plus w Kodilla. Mam też za sobą
+            klika kursów Udemy m.in. Programowanie w JavaScript, React od
+            podstaw, Node.js, Express, MongoDB oraz Zaawansowane projekty CSS i
+            JavaScript. Obecnie biorę udział w programie:{" "}
+            <q>Programiści dla Szczecina</q> - kurs pt.
             <q>Budowanie Aplikacji Internetowych</q> odbywający się w
-            Zachodniopomorskiej Szkole Biznesu w Szczecinie. Realizuję proste
-            projekty dzięki, którym mogę robić to co daje mi radość, wzbudza
-            ciekawość i motywuje do działania.
+            Zachodniopomorskiej Szkole Biznesu w Szczecinie. Ćwiczę realizując
+            proste projekty dzięki, którym mogę robić to co daje mi radość,
+            wzbudza ciekawość i motywuje do działania.
           </p>
         </Col>
       </Row>
@@ -74,7 +75,7 @@ const AboutPage = () => {
                 Zdanie: <q>Nie ma rzeczy niemożliwych</q> stało się moim motto.
               </li>
               <li>
-                Bliskie jest mi <q>pixel perfect</q>.
+                Bliskie jest mi <q>pixel perfect</q> - jestem dokładna.
               </li>
               <li>
                 W programowaniu zwykle towarzyszy mi czekolada - jak się okazało
