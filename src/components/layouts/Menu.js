@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import "../../styles/layouts/Menu.scss";
-
 //fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -61,10 +60,18 @@ class Menu extends React.Component {
             ></div>
           </div>
           <div className="title_social">
-            <a href="https://github.com/paulinastefanska">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/paulinastefanska"
+            >
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://www.linkedin.com/in/paulina-stefanska">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/paulina-stefanska"
+            >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a href="mailto:web.paulinastefanska@gmail.com">
