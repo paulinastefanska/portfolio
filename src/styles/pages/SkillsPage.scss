@@ -20,6 +20,9 @@
   &_title:nth-child(1) {
     margin-top: 10px;
   }
+  .row:last-child {
+    margin-bottom: 20px;
+  }
   &_icon {
     font-size: $base-size * 4.4;
     color: $color-yellow;
