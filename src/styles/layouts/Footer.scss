@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column-reverse;
   border-top: 4px solid $color-grey;
+  background-color: $color-background;
   @include tablet-large {
     flex-direction: row;
     justify-content: space-between;

@@ -2,26 +2,17 @@ import React from "react";
 import "../../styles/pages/AboutPage.scss";
 //bootstrap
 import { Row, Col } from "react-bootstrap";
-//fontawesome
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle } from "@fortawesome/free-solid-svg-icons";
 //images
 import flag from "../../images/flag.svg";
 import point from "../../images/point.svg";
-import mLine from "../../images/mobile-line.svg";
-import lLine from "../../images/laptop-line.svg";
 
 const AboutPage = () => {
   return (
     <section className="about">
-      <img src={mLine} alt="mobile-line" className="mobile-line"></img>
-      <img src={lLine} alt="laptop-line" className="laptop-line"></img>
       <Row>
         <img src={flag} alt="flag" className="flag_start"></img>
         <Col md={5}>
-          <span className="about_title">
-            <FontAwesomeIcon className="about_icon" icon={faCircle} /> Start
-          </span>
+          <span className="about_title">Start</span>
           <p className="about_text">
             Początki mojej przygody z kodem sięgają szkoły podstawowej. Poprzez
             edytowanie szablonów na blogi w systemie Wordpress poznałam bardzo
@@ -32,9 +23,7 @@ const AboutPage = () => {
           </p>
         </Col>
         <Col md={5}>
-          <span className="about_title">
-            <FontAwesomeIcon className="about_icon" icon={faCircle} /> Nauka
-          </span>
+          <span className="about_title">Nauka</span>
           <p className="about_text">
             Na szczęście na naukę nigdy nie jest za późno, także od początku
             2019 roku systematycznie poszerzam swoje umiejętności. Ukończyłam
@@ -53,9 +42,7 @@ const AboutPage = () => {
       </Row>
       <Row>
         <Col md={5}>
-          <span className="about_title">
-            <FontAwesomeIcon className="about_icon" icon={faCircle} /> Cechy
-          </span>
+          <span className="about_title">Cechy</span>
           <div className="about_text">
             <ul className="about_text-list">
               <li>
@@ -85,9 +72,7 @@ const AboutPage = () => {
           </div>
         </Col>
         <Col md={5}>
-          <span className="about_title">
-            <FontAwesomeIcon className="about_icon" icon={faCircle} /> Aktualnie
-          </span>
+          <span className="about_title">Aktualnie</span>
           <p className="about_text">
             Nadszedł czas, aby zdobyć doświadczenie i współtworzyć prawdziwe
             projekty. Aktualnie poszukuję pierwszej pracy w IT lub stażu jako

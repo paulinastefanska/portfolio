@@ -1,16 +1,59 @@
 @import "../global.scss";
 
 .home {
-  @include tablet-small {
-    padding: 15px;
+  &_header {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
   }
-  .img {
+  .home_circle-left {
+    position: absolute;
+    width: 40vw;
+    left: 12vw;
+    z-index: -1;
+    @include mobile-large {
+      width: 30vw;
+      left: 20vw;
+    }
+    @include tablet-small {
+      width: 25vw;
+      left: 23vw;
+    }
+    @include tablet-large {
+      left: 20vw;
+    }
+    @include laptop {
+      width: 250px;
+      left: 200px;
+    }
+  }
+  .home_circle-right {
+    position: absolute;
+    width: 40vw;
+    right: 12vw;
+    z-index: -1;
+    @include mobile-large {
+      width: 30vw;
+      right: 20vw;
+    }
+    @include tablet-small {
+      width: 25vw;
+      right: 23vw;
+    }
+    @include tablet-large {
+      right: 20vw;
+    }
+    @include laptop {
+      width: 250px;
+      right: 200px;
+    }
+  }
+  .home_img {
     display: block;
-    border: 6px solid $color-grey;
     border-radius: 50%;
     width: 40vw;
     margin: 10px auto;
-    opacity: 0.9;
+    box-shadow: -12px 12px 20px -10px rgba(17, 17, 17, 0.55);
     @include mobile-large {
       width: 30vw;
       margin-top: 20px;
@@ -19,35 +62,51 @@
       width: 25vw;
       margin-top: 0;
     }
-    @include tablet-large {
-      width: 20vw;
-    }
     @include laptop {
-      width: 10vw;
+      width: 250px;
+    }
+  }
+  &_sentence {
+    padding: 0 15px;
+    text-align: center;
+    font-size: $base-size;
+    font-style: italic;
+    @include tablet-small {
+      width: 400px;
+      margin: 15px auto;
+    }
+    @include tablet-large {
+      font-size: $base-size * 1.2;
     }
   }
   &_welcome {
-    @include tablet-large {
-      width: 700px;
-      margin: 0 auto;
-    }
+    max-width: 1000px;
+    margin: 0 auto;
   }
-  &_header {
-    font-size: $base-size * 1.7;
+  &_title {
+    padding: 8px 10px;
+    color: $color-text;
+    font-size: $base-size * 1.6;
     font-weight: 600;
+    letter-spacing: 1px;
     border-bottom: 6px solid $color-yellow;
     @include tablet-large {
-      font-size: $base-size * 2;
+      font-size: $base-size * 1.8;
     }
   }
   &_text {
     font-size: $base-size * 1.1;
-    padding: 15px;
+    padding: 20px;
+    margin: 10px auto;
     text-align: justify;
     border-left: 6px solid $color-yellow;
     border-bottom: 6px solid $color-yellow;
+    box-shadow: -13px 13px 20px -11px rgba(17, 17, 17, 0.55);
     @include tablet-large {
-      font-size: $base-size * 1.6;
+      font-size: $base-size * 1.4;
     }
+  }
+  @include tablet-small {
+    padding: 15px;
   }
 }
