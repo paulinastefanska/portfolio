@@ -28,7 +28,7 @@
     color: $color-text;
     border-bottom: 6px solid $color-yellow;
     @include tablet-large {
-      font-size: $base-size * 1.8;
+      font-size: $base-size * 1.6;
     }
   }
   &_socials {

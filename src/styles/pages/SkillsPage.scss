@@ -23,7 +23,7 @@
     padding: 8px 10px;
     border-bottom: 6px solid $color-yellow;
     @include tablet-large {
-      font-size: $base-size * 1.4;
+      font-size: $base-size * 1.6;
     }
   }
   &_title:nth-child(1) {
