@@ -29,9 +29,9 @@ const AboutPage = () => {
             2019 roku systematycznie poszerzam swoje umiejętności. Ukończyłam
             intensywny 9-miesięczny kurs programowania pod opieką indywidualnego
             mentora – Bootcamp Web Developer Plus w Kodilla. Mam też za sobą
-            klika kursów Udemy m.in. Programowanie w JavaScript, React od
-            podstaw, Node.js, Express, MongoDB oraz Zaawansowane projekty CSS i
-            JavaScript. Obecnie biorę udział w programie:{" "}
+            klika kursów na platformie Udemy m.in. Programowanie w JavaScript,
+            React od podstaw, Node.js, Express, MongoDB oraz Zaawansowane
+            projekty CSS i JavaScript. Obecnie biorę udział w programie:{" "}
             <q>Programiści dla Szczecina</q> - kurs pt.
             <q>Budowanie Aplikacji Internetowych</q> odbywający się w
             Zachodniopomorskiej Szkole Biznesu w Szczecinie. Ćwiczę realizując
@@ -77,7 +77,7 @@ const AboutPage = () => {
             Nadszedł czas, aby zdobyć doświadczenie i współtworzyć prawdziwe
             projekty. Aktualnie poszukuję pierwszej pracy w IT lub stażu jako
             Junior Front-end Developer. Ponadto chętnie wezmę udział w
-            projektach typu open-source JavaScript lub React.
+            projektach typu open-source szczególnie w JavaScript lub React.
           </p>
         </Col>
         <img src={point} alt="point" className="point_now"></img>

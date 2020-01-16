@@ -11,12 +11,15 @@
     }
   }
   .row:first-child {
+    [class*="col-"]:nth-child(2) {
+      margin-top: 15px;
+    }
     @include tablet-small {
       align-items: flex-end;
     }
   }
   [class*="col-"] {
-    margin: 15px 5px;
+    margin: 10px 15px;
     padding: 0;
     @include mobile-large {
       margin: 10px 15px;
@@ -37,9 +40,8 @@
   &_text {
     margin: 10px auto;
     padding: 20px;
-    border-left: 6px solid $color-yellow;
-    border-bottom: 6px solid $color-yellow;
-    box-shadow: -13px 13px 20px -11px rgba(17, 17, 17, 0.55);
+    text-align: justify;
+    @include border-shadow;
   }
   &_text-list {
     padding-left: 20px;
@@ -101,7 +103,7 @@
   }
   @include laptop {
     height: 43%;
-    right: 7%;
+    right: 6%;
     bottom: 4%;
     z-index: -1;
   }
