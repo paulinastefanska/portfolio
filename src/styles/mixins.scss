@@ -22,3 +22,70 @@
     @content;
   }
 }
+
+@mixin section {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@mixin title {
+  display: inline-block;
+  font-size: $base-size * 1.4;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: $color-text;
+  text-transform: uppercase;
+  padding: 8px 10px;
+  border-bottom: 6px solid $color-yellow;
+  @include tablet-large {
+    font-size: $base-size * 1.6;
+    margin-top: 30px;
+  }
+}
+
+@mixin border-shadow {
+  border-bottom: 6px solid $color-yellow;
+  border-left: 6px solid $color-yellow;
+  box-shadow: -13px 13px 20px -11px rgba(17, 17, 17, 0.55);
+}
+
+@mixin circles-left {
+  display: none;
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    width: 16%;
+    left: 0;
+    top: -25px;
+  }
+}
+
+@mixin circles-right {
+  display: none;
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    width: 16%;
+    right: 0;
+    top: 170px;
+    transform: rotate(180deg);
+  }
+}
+
+@mixin circles-icon {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  @include mobile-large {
+    width: 48%;
+  }
+  @include tablet-small {
+    width: 40%;
+  }
+  @include tablet-large {
+    width: 36%;
+    margin-bottom: -20px;
+  }
+}
