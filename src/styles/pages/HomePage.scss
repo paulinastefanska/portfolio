@@ -1,34 +1,21 @@
 @import "../global.scss";
 
 .home {
+  // visibility: hidden;
   @include section;
   &_header {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
   }
-  .home_circles-side-left {
-    display: none;
-    @include tablet-large {
-      display: inline-block;
-      position: absolute;
-      width: 16%;
-      left: 0;
-      top: -2%;
-    }
+  &_circles-side-left {
+    @include circles-left;
   }
-  .home_circles-side-right {
-    display: none;
-    @include tablet-large {
-      display: inline-block;
-      position: absolute;
-      width: 16%;
-      right: 0;
-      top: 34%;
-      transform: rotate(180deg);
-    }
+  &_circles-side-right {
+    @include circles-right;
+    top: 260px !important;
   }
-  .home_circle-left {
+  &_circle-left {
     position: absolute;
     width: 40vw;
     left: 12vw;
@@ -49,7 +36,7 @@
       left: 200px;
     }
   }
-  .home_circle-right {
+  &_circle-right {
     position: absolute;
     width: 40vw;
     right: 12vw;
@@ -70,7 +57,7 @@
       right: 200px;
     }
   }
-  .home_img {
+  &_img {
     display: block;
     border-radius: 50%;
     width: 40vw;

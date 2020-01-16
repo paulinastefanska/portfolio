@@ -82,7 +82,6 @@ const AboutPage = () => {
         </Col>
         <img src={point} alt="point" className="point_now"></img>
       </Row>
-
       <p className="about_curiosity">
         <span className="about_star">* </span>
         <q>

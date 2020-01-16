@@ -29,7 +29,7 @@
     font-weight: 600;
     margin: 0 auto;
     margin-bottom: 15px;
-    border-bottom: 4px solid $color-grey;
+    border-bottom: 5px solid $color-grey;
     @include tablet-large {
       font-size: $base-size * 1.5;
     }
@@ -66,6 +66,7 @@
     display: block;
     width: 100%;
     cursor: pointer;
+    border: 5px solid;
     transition: $transition;
     backface-visibility: hidden;
   }
@@ -109,13 +110,13 @@
   }
   &_desc {
     font-size: $base-size * 1.1;
-    padding: 15px 12px 0;
+    padding: 0 12px 0;
     text-align: justify;
     @include tablet-small {
       font-size: $base-size * 1.2;
     }
     @include tablet-large {
-      padding: 15px 30px 0;
+      padding: 10px 30px 0;
       font-size: $base-size * 1.4;
     }
   }
