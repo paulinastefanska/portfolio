@@ -1,0 +1,122 @@
+@import "../global.scss";
+
+.portfolio {
+  @include section;
+  &_circles-left {
+    @include circles-left;
+  }
+  &_circles-right {
+    @include circles-right;
+  }
+  &_folder {
+    @include circles-icon;
+  }
+  &_title {
+    @include title;
+  }
+  &_projects {
+    padding: 24px 0;
+    @include border-shadow;
+  }
+  &_projects:last-child {
+    margin-bottom: 20px;
+  }
+  &_name {
+    display: block;
+    width: 85%;
+    color: $color-text;
+    font-size: $base-size * 1.3;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-bottom: 4px solid $color-grey;
+    @include tablet-large {
+      font-size: $base-size * 1.5;
+    }
+  }
+  .row {
+    text-align: center;
+  }
+  [class*="col-"] {
+    margin: 10px auto;
+    color: $color-grey;
+  }
+  &_wrapper {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    @include tablet-large {
+      margin-bottom: 10px;
+    }
+    &:hover .portfolio_project {
+      @include tablet-large {
+        opacity: 0.6;
+        filter: grayscale(0.8);
+      }
+    }
+    &:hover .portfolio_middle {
+      @include tablet-large {
+        opacity: 1;
+        top: 50%;
+      }
+    }
+  }
+  &_project {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    transition: $transition;
+    backface-visibility: hidden;
+  }
+  &_middle {
+    opacity: 1;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    transition: $transition;
+    @include tablet-large {
+      opacity: 0;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &_button {
+    position: relative;
+    font-size: $base-size * 1.2;
+    font-weight: 600;
+    color: $color-text-dark;
+    background-color: $color-yellow;
+    padding: 10px 15px;
+    margin: 10px;
+    transition: $transition;
+    &:hover,
+    &:visited {
+      color: $color-text-dark;
+    }
+    @include tablet-large {
+      font-size: $base-size * 1.6;
+    }
+  }
+  @include tablet-large {
+    .portfolio_button:hover {
+      background-color: $color-grey;
+      color: $color-background;
+    }
+  }
+  &_desc {
+    font-size: $base-size * 1.1;
+    padding: 15px 12px 0;
+    text-align: justify;
+    @include tablet-small {
+      font-size: $base-size * 1.2;
+    }
+    @include tablet-large {
+      padding: 15px 30px 0;
+      font-size: $base-size * 1.4;
+    }
+  }
+}
