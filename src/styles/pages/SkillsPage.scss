@@ -1,33 +1,32 @@
 @import "../global.scss";
 
 .skills {
-  max-width: 1000px;
-  margin: 0 auto;
+  @include section;
+  &_circles-left {
+    @include circles-left;
+  }
+  &_circles-right {
+    @include circles-right;
+  }
+  &_bulb {
+    @include circles-icon;
+  }
+  &_title {
+    @include title;
+    margin-top: 20px;
+  }
+  &_title:nth-child(4) {
+    margin-top: 0;
+    @include tablet-large {
+      margin-top: 30px;
+    }
+  }
   &_stack {
     padding: 24px 0;
-    border-bottom: 6px solid $color-yellow;
-    border-left: 6px solid $color-yellow;
-    box-shadow: -13px 13px 20px -11px rgba(17, 17, 17, 0.55);
+    @include border-shadow;
   }
   &_stack:last-child {
     margin-bottom: 20px;
-  }
-  &_title {
-    display: inline-block;
-    font-size: $base-size * 1.4;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: $color-text;
-    text-transform: uppercase;
-    margin-top: 30px;
-    padding: 8px 10px;
-    border-bottom: 6px solid $color-yellow;
-    @include tablet-large {
-      font-size: $base-size * 1.6;
-    }
-  }
-  &_title:nth-child(1) {
-    margin-top: 0;
   }
   .row {
     text-align: center;

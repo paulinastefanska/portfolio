@@ -26,10 +26,24 @@ import {
   faAdobe,
   faPhp
 } from "@fortawesome/free-brands-svg-icons";
+//img
+import bulb from "../../images/bulb.svg";
+import sideCircles from "../../images/side-circles.svg";
 
 const SkillsPage = () => {
   return (
     <section className="skills">
+      <img
+        src={sideCircles}
+        alt="side-circles"
+        className="skills_circles-left"
+      />
+      <img
+        src={sideCircles}
+        alt="side-circles"
+        className="skills_circles-right"
+      />
+      <img src={bulb} alt="bulb" className="skills_bulb" />
       <span className="skills_title">Front-end</span>
       <div className="skills_stack">
         <Row>

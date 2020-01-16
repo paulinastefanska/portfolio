@@ -8,10 +8,21 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 //img
 import phone from "../../images/phone.svg";
+import sideCircles from "../../images/side-circles.svg";
 
 const ContactPage = () => {
   return (
     <section className="contact">
+      <img
+        src={sideCircles}
+        alt="side-circles"
+        className="portfolio_circles-left"
+      />
+      <img
+        src={sideCircles}
+        alt="side-circles"
+        className="portfolio_circles-right"
+      />
       <img src={phone} alt="phone" className="contact_phone"></img>
       <span className="contact_title">Kontakt</span>
       <div className="contact_socials">
@@ -24,13 +35,7 @@ const ContactPage = () => {
               href="https://drive.google.com/file/d/15Tms2zgVCCuLykXGP9So7dNlyGOC-BMC/view?usp=sharing"
             >
               <FontAwesomeIcon icon={faFilePdf} />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/15Tms2zgVCCuLykXGP9So7dNlyGOC-BMC/view?usp=sharing"
-            >
-              Curriculum Vitae
+              <span className="contact_name">Curriculum Vitae</span>
             </a>
           </Col>
           <Col md={6}>
@@ -39,9 +44,9 @@ const ContactPage = () => {
               href="mailto:web.paulinastefanska@gmail.com"
             >
               <FontAwesomeIcon icon={faEnvelope} />
-            </a>
-            <a href="mailto:web.paulinastefanska@gmail.com">
-              web.paulinastefanska@gmail.com
+              <span className="contact_name">
+                web.paulinastefanska@gmail.com
+              </span>
             </a>
           </Col>
         </Row>
@@ -54,13 +59,9 @@ const ContactPage = () => {
               href="https://www.linkedin.com/in/paulina-stefanska"
             >
               <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/paulina-stefanska"
-            >
-              linkedin.com/in/paulina-stefanska
+              <span className="contact_name">
+                linkedin.com/in/paulina-stefanska
+              </span>
             </a>
           </Col>
           <Col md={6}>
@@ -71,13 +72,7 @@ const ContactPage = () => {
               href="https://github.com/paulinastefanska"
             >
               <FontAwesomeIcon icon={faGithub} />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/paulinastefanska"
-            >
-              github.com/paulinastefanska
+              <span className="contact_name">github.com/paulinastefanska</span>
             </a>
           </Col>
         </Row>
