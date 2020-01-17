@@ -47,7 +47,7 @@
 @mixin border-shadow {
   border-bottom: 6px solid $color-yellow;
   border-left: 6px solid $color-yellow;
-  box-shadow: -13px 13px 20px -11px rgba(17, 17, 17, 0.55);
+  box-shadow: -13px 13px 20px -11px rgba(17, 17, 17, 0.3);
 }
 
 @mixin circles-left {
