@@ -2,7 +2,7 @@
 
 ### See [DEMO](https://paulinastefanska.github.io/portfolio)
 
-## My whole learning process in one place.
+### My whole learning process in one place.
 
 ## Tech stack
 
