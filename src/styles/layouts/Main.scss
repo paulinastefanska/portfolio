@@ -3,7 +3,17 @@
 .main {
   flex-grow: 1;
   padding: 20px 0;
+  position: relative;
   @include tablet-large {
     padding: 15px 0;
+  }
+}
+.wrapper {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-bottom: 70px;
+  @include mobile-large {
+    margin-bottom: 85px;
   }
 }
