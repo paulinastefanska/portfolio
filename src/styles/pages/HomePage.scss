@@ -1,8 +1,8 @@
 @import "../global.scss";
 
 .home {
-  // visibility: hidden;
   @include section;
+  margin-bottom: 20px;
   &_header {
     position: relative;
     max-width: 800px;
@@ -108,8 +108,5 @@
     @include tablet-large {
       font-size: $base-size * 1.4;
     }
-  }
-  @include tablet-small {
-    padding: 15px 0;
   }
 }

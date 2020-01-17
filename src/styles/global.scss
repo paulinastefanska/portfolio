@@ -27,6 +27,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  @include tablet-large {
+    padding: 0 25px;
+  }
 }
 
 a {

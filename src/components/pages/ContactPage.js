@@ -32,7 +32,7 @@ const ContactPage = () => {
               className="contact_social"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/15Tms2zgVCCuLykXGP9So7dNlyGOC-BMC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Ho7z_LvVf1TS1otf_HcWkcuh8_oGUKEn/view?usp=sharing"
             >
               <FontAwesomeIcon icon={faFilePdf} />
               <span className="contact_name">Curriculum Vitae</span>

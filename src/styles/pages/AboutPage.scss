@@ -4,6 +4,9 @@
   font-size: $base-size * 1.1;
   line-height: 1.5;
   position: relative;
+  @include tablet-large {
+    font-size: $base-size * 1.4;
+  }
   .row {
     justify-content: center;
     @include tablet-small {
@@ -11,19 +14,16 @@
     }
   }
   .row:first-child {
-    [class*="col-"]:nth-child(2) {
-      margin-top: 15px;
-    }
     @include tablet-small {
       align-items: flex-end;
+    }
+    [class*="col-"]:nth-child(2) {
+      margin-top: 15px;
     }
   }
   [class*="col-"] {
     margin: 10px 15px;
     padding: 0;
-    @include mobile-large {
-      margin: 10px 15px;
-    }
   }
   &_title {
     padding: 8px 10px;
@@ -45,6 +45,7 @@
   }
   &_text-list {
     padding-left: 20px;
+    margin: 0;
     list-style-type: square;
     color: $color-text-light;
   }
@@ -67,9 +68,6 @@
     @include tablet-large {
       font-size: $base-size * 1.4;
     }
-  }
-  @include tablet-large {
-    font-size: $base-size * 1.4;
   }
 }
 

@@ -32,9 +32,10 @@ const AboutPage = () => {
             klika kursów na platformie Udemy m.in. Programowanie w JavaScript,
             React od podstaw, Node.js, Express, MongoDB oraz Zaawansowane
             projekty CSS i JavaScript. Obecnie biorę udział w programie:{" "}
-            <q>Programiści dla Szczecina</q> - kurs pt.
+            <q>Programiści dla Szczecina</q> pt.{" "}
             <q>Budowanie Aplikacji Internetowych</q> odbywający się w
-            Zachodniopomorskiej Szkole Biznesu w Szczecinie. Ćwiczę realizując
+            Zachodniopomorskiej Szkole Biznesu w Szczecinie i od podstaw uczę
+            się języka PHP i baz danych MySQL. Cały czas ćwiczę realizując
             proste projekty dzięki, którym mogę robić to co daje mi radość,
             wzbudza ciekawość i motywuje do działania.
           </p>
@@ -51,18 +52,21 @@ const AboutPage = () => {
                 czerwona i nie miała końca.
               </li>
               <li>
-                Do działania napędza mnie rozwiązany problem, a do nauki
-                ciekawość.
+                Zdanie: <q>Nie ma rzeczy niemożliwych</q> stało się moim motto.
               </li>
               <li>
                 Biję brawo kiedy mogę powiedzieć: <q>Działa!</q> jedno słowo, a
                 wzbudza nieopisaną radość.
               </li>
               <li>
-                Zdanie: <q>Nie ma rzeczy niemożliwych</q> stało się moim motto.
+                Cenię zasady: <q>KISS</q> oraz <q>DRY</q>.
               </li>
               <li>
-                Bliskie jest mi <q>pixel perfect</q> - jestem dokładna.
+                Do działania napędza mnie rozwiązany problem, a do nauki
+                ciekawość.
+              </li>
+              <li>
+                Bliskie jest mi <q>pixel perfect</q>.
               </li>
               <li>
                 W programowaniu zwykle towarzyszy mi czekolada - jak się okazało
@@ -75,9 +79,9 @@ const AboutPage = () => {
           <span className="about_title">Aktualnie</span>
           <p className="about_text">
             Nadszedł czas, aby zdobyć doświadczenie i współtworzyć prawdziwe
-            projekty. Aktualnie poszukuję pierwszej pracy w IT lub stażu jako
+            projekty. Aktualnie poszukuję pierwszej pracy lub stażu w IT jako
             Junior Front-end Developer. Ponadto chętnie wezmę udział w
-            projektach typu open-source szczególnie w JavaScript lub React.
+            projektach typu open-source, szczególnie w JavaScript, React.
           </p>
         </Col>
         <img src={point} alt="point" className="point_now"></img>

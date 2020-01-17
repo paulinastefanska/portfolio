@@ -12,20 +12,33 @@ const Footer = () => {
     <footer className="footer">
       <p className="footer_socials">
         &copy;2020{" "}
-        <a href="https://github.com/paulinastefanska/portfolio">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/paulinastefanska/portfolio"
+        >
           Paulina Stefańska
         </a>
-        <a className="footer_social" href="https://github.com/paulinastefanska">
+        <a
+          className="footer_social"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/paulinastefanska"
+        >
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
           className="footer_social"
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://www.linkedin.com/in/paulina-stefanska"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
           className="footer_social footer_social--hidden"
+          target="_blank"
+          rel="noopener noreferrer"
           href="mailto:web.paulinastefanska@gmail.com"
         >
           <FontAwesomeIcon icon={faEnvelope} />

@@ -2,6 +2,12 @@
 
 .portfolio {
   @include section;
+  @include tablet-large {
+    .portfolio_button:hover {
+      background-color: $color-grey;
+      color: $color-background;
+    }
+  }
   &_circles-left {
     @include circles-left;
   }
@@ -80,9 +86,9 @@
     transition: $transition;
     @include tablet-large {
       opacity: 0;
-      top: 100%;
+      top: 60%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -40%);
     }
   }
   &_button {
@@ -102,12 +108,7 @@
       font-size: $base-size * 1.6;
     }
   }
-  @include tablet-large {
-    .portfolio_button:hover {
-      background-color: $color-grey;
-      color: $color-background;
-    }
-  }
+
   &_desc {
     font-size: $base-size * 1.1;
     padding: 0 12px 0;

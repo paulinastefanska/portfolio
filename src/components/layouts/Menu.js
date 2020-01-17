@@ -36,7 +36,7 @@ class Menu extends React.Component {
     ));
 
     return (
-      <header>
+      <header className="header">
         <div className="title">
           <span className="title_name">
             <Link to="/">Paulina Stefańska</Link>

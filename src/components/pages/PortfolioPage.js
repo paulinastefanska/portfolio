@@ -29,7 +29,7 @@ const PortfolioPage = () => {
         alt="side-circles"
         className="portfolio_circles-right"
       />
-      <img src={folder} alt="bulb" className="portfolio_folder"></img>
+      <img src={folder} alt="folder" className="portfolio_folder"></img>
       <span className="portfolio_title">Wybrane projekty</span>
       <div className="portfolio_projects">
         <Row>
@@ -62,10 +62,11 @@ const PortfolioPage = () => {
             </div>
             <p className="portfolio_desc">
               Prosta strona portfolio napisana w React z użyciem React Router
-              oraz animacjami GSAP. Grafiki SVG wykonane w Adobe Illustartor.{" "}
+              oraz React-Transition-Group. Grafiki SVG wykonane w Adobe
+              Illustartor.{" "}
               <strong>
-                Tech stack: HTML | Sass | React | React Router | GSAP | SVG |
-                Illustrator | CRA - webpack.
+                Tech stack: HTML | Sass | React | React Router | Animation |
+                Illustrator | CRA - webpack | Yarn.
               </strong>
             </p>
           </Col>
@@ -100,8 +101,8 @@ const PortfolioPage = () => {
               Indywidualny projekt na zakończenie bootcampu Web Developer Plus.
               Aplikacja jest dostosowana do PWA (Progresive Web App).{" "}
               <strong>
-                Tech stack: MERN (MongoDB, Express, React (+Redux), Node.js |
-                Sass | CRA - webpack.
+                Tech stack: MERN (MongoDB, Express, React (Redux, Router),
+                Node.js | Sass | CRA - webpack | npm | Yarn.
               </strong>
             </p>
           </Col>
@@ -173,8 +174,8 @@ const PortfolioPage = () => {
               Pierwszy indywidualny projekt napisany podczas Bootcampu Web
               Developer Plus na podstawie pliku PSD od grafika.{" "}
               <strong>
-                Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts |
-                Photoshop.
+                Tech stack: HTML | Sass | RWD | JavaScript ES5 | Photoshop | npm
+                Scripts.
               </strong>
             </p>
           </Col>

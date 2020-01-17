@@ -38,10 +38,13 @@ const HomePage = () => {
         Front-end Developerem. Pomysł nie wziął się znikąd, kiedyś miałam
         troszkę styczności z kodem, a przez ostatnie lata współpraca z działem
         IT tylko mnie o tym przekonała. Od roku systematycznie uczę się
-        programowania po stronie front-endu. Na codzień ćwiczę kodowanie w
-        JavaScript i React. Obecnie biorę udział w programie{" "}
-        <q>Programiści dla Szczecina</q> i od podstaw uczę się PHP i MySQL.
-        Wiedzę mogę poprzeć licznymi projektami oraz kursami. Aktualnie szukam
+        programowania po stronie front-endu. Ukończyłam intensywny 9-miesięczny
+        kurs programowania pod opieką indywidualnego mentora – Bootcamp Web
+        Developer Plus w Kodilla. Mam też za sobą kilka ciekawych kursów na
+        platformie Udemy. Cały czas ćwiczę i razwijam swoje umiejętności -
+        szczególnie w JavaScript i React. Obecnie biorę udział w programie{" "}
+        <q>Programiści dla Szczecina</q> i od podstaw uczę się języka PHP i baz
+        danych MySQL. Wiedzę mogę poprzeć licznymi projektami. Aktualnie szukam
         pierwszej pracy w IT. Chętnie wezmę też udział w projektach open-source.
       </p>
     </section>
