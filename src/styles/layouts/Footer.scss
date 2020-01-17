@@ -34,7 +34,7 @@
       justify-content: center;
     }
     @include tablet-large {
-      padding: 25px;
+      padding: 15px;
     }
     li {
       list-style: none;
@@ -63,7 +63,7 @@
     margin-bottom: 8px;
     color: $color-text-light;
     @include tablet-large {
-      padding: 25px;
+      padding: 15px;
       margin: 0;
       font-size: $base-size * 1.3;
     }
