@@ -1,3 +1,20 @@
+# My Portfolio Website
+
+### See [DEMO](https://paulinastefanska.github.io/portfolio)
+
+## My whole learning process in one place.
+
+## Tech stack
+
+- HTML,
+- Sass,
+- RWD,
+- React,
+- React Router,
+- React Transition Group,
+- Yarn,
+- Illustrator.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
