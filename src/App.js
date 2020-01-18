@@ -1,17 +1,29 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import Menu from "./components/layouts/Menu";
+import React, { Component, useEffect } from "react";
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
+//layouts
+import Header from "./components/layouts/Header";
 import Main from "./components/layouts/Main";
 import Footer from "./components/layouts/Footer";
-
+//bootstrap
 import { Container } from "react-bootstrap";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 class App extends Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <Container>
-          <Menu />
+          <Header />
+          <ScrollToTop />
           <Main />
           <Footer />
         </Container>
