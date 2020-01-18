@@ -1,16 +1,17 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import "../../styles/layouts/Menu.scss";
+import "../../styles/layouts/Header.scss";
 //fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-class Menu extends React.Component {
+class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      openMenu: false
+      openMenu: false,
+      scroll: false
     };
   }
 
@@ -18,8 +19,24 @@ class Menu extends React.Component {
     this.setState({ openMenu: !this.state.openMenu });
   };
 
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = event => {
+    if (window.scrollY === 0 && this.state.scroll === true) {
+      this.setState({ scroll: false });
+    } else if (window.scrollY !== 0 && this.state.scroll !== true) {
+      this.setState({ scroll: true });
+    }
+  };
+
   render() {
-    const { openMenu } = this.state;
+    const { openMenu, scroll } = this.state;
     const list = [
       { name: "Start", path: "/", exact: true },
       { name: "O mnie", path: "/about" },
@@ -29,14 +46,18 @@ class Menu extends React.Component {
     ];
     const navigation = list.map(item => (
       <li className="menu_item" key={item.name}>
-        <NavLink to={item.path} exact={item.exact ? item.exact : false}>
+        <NavLink
+          to={item.path}
+          exact={item.exact ? item.exact : false}
+          onClick={this.handleMenuClick}
+        >
           {item.name}
         </NavLink>
       </li>
     ));
 
     return (
-      <header className="header">
+      <header className={`header${scroll ? " header--scroll" : ""}`}>
         <div className="title">
           <span className="title_name">
             <Link to="/">Paulina Stefańska</Link>
@@ -87,4 +108,4 @@ class Menu extends React.Component {
   }
 }
 
-export default Menu;
+export default Header;
