@@ -5,10 +5,16 @@ import { Row, Col } from "react-bootstrap";
 //images
 import flag from "../../images/flag.svg";
 import point from "../../images/point.svg";
+import sideCircles from "../../images/side-circles.svg";
 
 const AboutPage = () => {
   return (
     <section className="about">
+      <img
+        src={sideCircles}
+        alt="side-circles"
+        className="about_circles-left"
+      />
       <Row>
         <img src={flag} alt="flag" className="flag_start"></img>
         <Col md={5}>
@@ -32,7 +38,7 @@ const AboutPage = () => {
             klika kursów na platformie Udemy m.in. Programowanie w JavaScript,
             React od podstaw, Node.js, Express, MongoDB oraz Zaawansowane
             projekty CSS i JavaScript. Obecnie biorę udział w programie:{" "}
-            <q>Programiści dla Szczecina</q> pt.{" "}
+            <q>Programiści dla Szczecina</q> - kurs pt.{" "}
             <q>Budowanie Aplikacji Internetowych</q> odbywający się w
             Zachodniopomorskiej Szkole Biznesu w Szczecinie i od podstaw uczę
             się języka PHP i baz danych MySQL. Cały czas ćwiczę realizując
@@ -52,11 +58,11 @@ const AboutPage = () => {
                 czerwona i nie miała końca.
               </li>
               <li>
-                Zdanie: <q>Nie ma rzeczy niemożliwych</q> stało się moim motto.
-              </li>
-              <li>
                 Biję brawo kiedy mogę powiedzieć: <q>Działa!</q> jedno słowo, a
                 wzbudza nieopisaną radość.
+              </li>
+              <li>
+                Zdanie: <q>Nie ma rzeczy niemożliwych</q> stało się moim motto.
               </li>
               <li>
                 Cenię zasady: <q>KISS</q> oraz <q>DRY</q>.
@@ -79,7 +85,7 @@ const AboutPage = () => {
           <span className="about_title">Aktualnie</span>
           <p className="about_text">
             Nadszedł czas, aby zdobyć doświadczenie i współtworzyć prawdziwe
-            projekty. Aktualnie poszukuję pracy lub stażu w IT jako Junior
+            projekty. Aktualnie szukam pracy lub stażu w IT jako Junior
             Front-end Developer. Ponadto chętnie wezmę udział w projektach typu
             open-source, szczególnie w JavaScript, React.
           </p>
@@ -94,6 +100,11 @@ const AboutPage = () => {
           mózg człowieka, a zwłaszcza na jego umiejętności matematyczne(…)
         </q>
       </p>
+      <img
+        src={sideCircles}
+        alt="side-circles"
+        className="about_circles-right"
+      />
     </section>
   );
 };
