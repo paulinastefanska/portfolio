@@ -15,22 +15,15 @@
     @include title;
   }
   &_socials {
-    font-size: $base-size;
     margin-bottom: 90px;
     @include border-shadow;
-    @include tablet-small {
-      font-size: $base-size * 1.3;
-    }
-    @include tablet-large {
-      font-size: $base-size * 1.4;
-    }
   }
   &_social {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    font-size: $base-size * 4;
+    font-size: $base-size * 3.6;
     color: $color-grey;
     &:hover {
       transition: $transition;
@@ -42,10 +35,7 @@
   }
   &_name {
     color: $color-text;
-    font-size: $base-size * 1.2;
+    font-size: $base-size * 1.1;
     padding: 10px 0;
-    @include tablet-small {
-      font-size: $base-size * 1.3;
-    }
   }
 }

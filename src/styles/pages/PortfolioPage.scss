@@ -21,8 +21,10 @@
     @include title;
   }
   &_projects {
-    padding: 24px 0;
     @include border-shadow;
+    @include tablet-small {
+      padding: 16px 0;
+    }
   }
   &_projects:last-child {
     margin-bottom: 90px;
@@ -36,9 +38,6 @@
     margin: 0 auto;
     margin-bottom: 15px;
     border-bottom: 5px solid $color-grey;
-    @include tablet-large {
-      font-size: $base-size * 1.5;
-    }
   }
   .row {
     text-align: center;
@@ -84,6 +83,9 @@
     transform: translate(-50%);
     text-align: center;
     transition: $transition;
+    @include mobile-large {
+      top: 103%;
+    }
     @include tablet-large {
       opacity: 0;
       top: 60%;
@@ -117,8 +119,7 @@
       font-size: $base-size * 1.2;
     }
     @include tablet-large {
-      padding: 10px 30px 0;
-      font-size: $base-size * 1.4;
+      padding: 10px 35px 0;
     }
   }
 }

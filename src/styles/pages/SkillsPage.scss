@@ -37,15 +37,9 @@
   }
   &_icon {
     font-size: $base-size * 4.4;
-    @include tablet-large {
-      font-size: $base-size * 4.8;
-    }
   }
   &_lang {
     display: block;
     font-size: $base-size * 1.2;
-    @include tablet-large {
-      font-size: $base-size * 1.4;
-    }
   }
 }

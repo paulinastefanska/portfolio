@@ -13,7 +13,7 @@
   }
   &_circles-side-right {
     @include circles-right;
-    top: 260px !important;
+    top: 200px !important;
   }
   &_circle-left {
     position: absolute;
@@ -32,8 +32,8 @@
       left: 20vw;
     }
     @include laptop {
-      width: 250px;
-      left: 200px;
+      width: 200px;
+      left: 230px;
     }
   }
   &_circle-right {
@@ -53,8 +53,8 @@
       right: 20vw;
     }
     @include laptop {
-      width: 250px;
-      right: 200px;
+      width: 200px;
+      right: 230px;
     }
   }
   &_img {
@@ -72,7 +72,7 @@
       margin-top: 0;
     }
     @include laptop {
-      width: 250px;
+      width: 200px;
     }
   }
   &_sentence {
@@ -81,11 +81,11 @@
     font-size: $base-size;
     font-style: italic;
     @include tablet-small {
-      width: 400px;
+      width: 415px;
       margin: 15px auto;
     }
     @include tablet-large {
-      font-size: $base-size * 1.2;
+      font-size: $base-size * 1.1;
     }
   }
   &_title {
@@ -96,7 +96,7 @@
     letter-spacing: 1px;
     border-bottom: 6px solid $color-yellow;
     @include tablet-large {
-      font-size: $base-size * 1.8;
+      font-size: $base-size * 1.7;
     }
   }
   &_text {
@@ -107,7 +107,7 @@
     text-align: justify;
     @include border-shadow;
     @include tablet-large {
-      font-size: $base-size * 1.4;
+      font-size: $base-size * 1.2;
     }
   }
 }

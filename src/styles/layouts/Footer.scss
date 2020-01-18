@@ -43,10 +43,7 @@
         font-size: $base-size * 1.2;
       }
       @include tablet-small {
-        margin: 0 20px;
-      }
-      @include tablet-large {
-        font-size: $base-size * 1.3;
+        margin: 0 15px;
       }
       .footer_link {
         color: $color-text-light;
@@ -59,13 +56,12 @@
   &_socials {
     text-align: center;
     font-size: $base-size;
-    margin-top: 5px;
     margin-bottom: 8px;
     color: $color-text-light;
     @include tablet-large {
       padding: 15px;
       margin: 0;
-      font-size: $base-size * 1.3;
+      font-size: $base-size * 1.1;
     }
     a {
       margin-right: 14px;
@@ -79,7 +75,7 @@
       color: $color-text-light;
       opacity: 0.9;
       @include tablet-large {
-        font-size: $base-size * 1.3;
+        font-size: $base-size * 1.2;
       }
       &--hidden {
         display: none;
