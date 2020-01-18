@@ -79,9 +79,9 @@ const AboutPage = () => {
           <span className="about_title">Aktualnie</span>
           <p className="about_text">
             Nadszedł czas, aby zdobyć doświadczenie i współtworzyć prawdziwe
-            projekty. Aktualnie poszukuję pierwszej pracy lub stażu w IT jako
-            Junior Front-end Developer. Ponadto chętnie wezmę udział w
-            projektach typu open-source, szczególnie w JavaScript, React.
+            projekty. Aktualnie poszukuję pracy lub stażu w IT jako Junior
+            Front-end Developer. Ponadto chętnie wezmę udział w projektach typu
+            open-source, szczególnie w JavaScript, React.
           </p>
         </Col>
         <img src={point} alt="point" className="point_now"></img>

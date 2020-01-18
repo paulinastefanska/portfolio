@@ -29,7 +29,7 @@ const HomePage = () => {
         <img src={photo} alt="me" className="home_img" />
         <p className="home_sentence">
           Bardzo lubię podejmować nowe wyzwania i zawsze dążę do wybranego celu,
-          nie ważne jak trudna jest droga - nie poddaję się!
+          bez względu na to, jak trudna jest droga - nie poddaję się!
         </p>
       </div>
       <span className="home_title">Cześć!</span>
