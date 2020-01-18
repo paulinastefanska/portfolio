@@ -10,9 +10,9 @@
 }
 .wrapper {
   position: absolute;
+  top: 130px;
   right: 0;
   left: 0;
-  margin-bottom: 70px;
   @include mobile-large {
     margin-bottom: 85px;
   }

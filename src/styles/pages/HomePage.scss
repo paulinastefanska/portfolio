@@ -103,6 +103,7 @@
     font-size: $base-size * 1.1;
     padding: 20px;
     margin: 10px auto;
+    margin-bottom: 90px;
     text-align: justify;
     @include border-shadow;
     @include tablet-large {
