@@ -82,6 +82,7 @@ class Header extends React.Component {
           </div>
           <div className="title_social">
             <a
+              aria-label="GitHub"
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/paulinastefanska"
@@ -89,13 +90,14 @@ class Header extends React.Component {
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
+              aria-label="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/paulina-stefanska"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="mailto:web.paulinastefanska@gmail.com">
+            <a aria-label="E-mail" href="mailto:web.paulinastefanska@gmail.com">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </div>

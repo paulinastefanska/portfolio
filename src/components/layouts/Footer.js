@@ -13,6 +13,7 @@ const Footer = () => {
       <p className="footer_socials">
         &copy;2020{" "}
         <a
+          aria-label="GitHub-portfolio"
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/paulinastefanska/portfolio"
@@ -40,8 +41,6 @@ const Footer = () => {
         <a
           className="footer_social footer_social--hidden"
           aria-label="E-mail"
-          target="_blank"
-          rel="noopener noreferrer"
           href="mailto:web.paulinastefanska@gmail.com"
         >
           <FontAwesomeIcon icon={faEnvelope} />
