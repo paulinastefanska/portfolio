@@ -14,21 +14,19 @@
   border-top: 4px solid $color-grey;
   background-color: $color-background;
   @include mobile-large {
-    border-top: 6px solid $color-grey;
-  }
-  @include tablet-large {
     flex-direction: row;
     justify-content: space-between;
+    border-top: 6px solid $color-grey;
   }
   &_menu {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0;
-    padding-top: 8px;
+    padding-top: 10px;
     margin: 0;
     @include mobile-large {
-      padding-top: 15px;
+      padding: 8px;
     }
     @include tablet-small {
       justify-content: center;
@@ -40,9 +38,11 @@
       list-style: none;
       font-size: $base-size;
       @include mobile-large {
-        font-size: $base-size * 1.2;
+        font-size: $base-size;
+        margin: 0 5px;
       }
       @include tablet-small {
+        font-size: $base-size * 1.2;
         margin: 0 15px;
       }
       .footer_link {
@@ -58,6 +58,10 @@
     font-size: $base-size;
     margin-bottom: 8px;
     color: $color-text-light;
+    @include mobile-large {
+      margin: 0;
+      padding: 10px;
+    }
     @include tablet-large {
       padding: 15px;
       margin: 0;
@@ -67,11 +71,14 @@
       margin-right: 14px;
       color: $color-text-light;
       @include mobile-large {
-        margin-right: 20px;
+        margin-right: 5px;
+      }
+      @include tablet-small {
+        margin-right: 15px;
       }
     }
     .footer_social {
-      font-size: $base-size * 1.2;
+      font-size: $base-size * 1.1;
       color: $color-text-light;
       opacity: 0.9;
       @include tablet-large {
