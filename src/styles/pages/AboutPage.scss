@@ -27,8 +27,11 @@
   }
   &_text {
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
     @include border-shadow;
+    @include mobile-large {
+      padding: 20px;
+    }
   }
   &_text-list {
     padding-left: 20px;

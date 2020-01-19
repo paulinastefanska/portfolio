@@ -76,13 +76,16 @@
     }
   }
   &_sentence {
-    padding: 0 15px;
+    padding: 0 25px;
     text-align: center;
     font-size: $base-size;
     font-style: italic;
+    @include mobile-large {
+      width: 375px;
+      margin: 15px auto;
+    }
     @include tablet-small {
       width: 415px;
-      margin: 15px auto;
     }
     @include tablet-large {
       font-size: $base-size * 1.1;
@@ -101,10 +104,13 @@
   }
   &_text {
     font-size: $base-size * 1.1;
-    padding: 20px;
+    padding: 15px;
     margin: 10px auto;
     margin-bottom: 90px;
     @include border-shadow;
+    @include mobile-large {
+      padding: 20px;
+    }
     @include tablet-large {
       font-size: $base-size * 1.2;
     }
