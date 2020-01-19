@@ -38,7 +38,7 @@
   }
   &_name {
     font-family: $font-header;
-    font-size: $base-size * 1.7;
+    font-size: $base-size * 1.5;
     letter-spacing: 2px;
     line-height: 1;
     @include mobile-large {
@@ -72,14 +72,15 @@
     position: absolute;
     right: -18%;
     top: 0;
-    height: 48px;
-    width: 48px;
+    height: 45px;
+    width: 45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    padding: 10px 8px;
+    padding: 6px;
+    margin-bottom: 4px;
     border-top: 6px solid $color-yellow;
     border-right: 6px solid $color-yellow;
     @include mobile-large {
@@ -87,32 +88,36 @@
     }
     .hamburger_line {
       height: 3px;
-      width: 28px;
+      width: 26px;
       background: $color-text-dark;
       transition: $transition;
+      border-radius: 2px;
     }
     .hamburger_top {
       transform: none;
       transform-origin: left top;
       margin-bottom: 5px;
+      transition: $transition;
       &--open {
-        transform: translateX(-2px) translateY(4px) rotate(45deg);
+        transform: translateY(3px) rotate(45deg);
       }
     }
     .hamburger_middle {
       opacity: 1;
       transform: none;
+      transition: $transition;
       &--open {
         opacity: 0;
-        transform: translateX(-18px);
+        transform: translateX(-10px);
       }
     }
     .hamburger_bottom {
       transform: none;
       transform-origin: left top;
       margin-top: 5px;
+      transition: $transition;
       &--open {
-        transform: translateX(-2px) translateY(-2px) rotate(-45deg);
+        transform: translateY(-3px) rotate(-45deg);
       }
     }
   }
@@ -160,11 +165,19 @@
   padding: 0;
   transition: border 0.3s ease-in-out;
   @include mobile-large {
+    top: -95px;
     padding: 0 15px;
     border-bottom: 6px solid $color-grey;
+    transition: 0.3s ease-in-out;
+  }
+  @include tablet-small {
+    top: -100px;
+    transition: 0.3s ease-in-out;
   }
   @include tablet-large {
+    top: -105px;
     padding: 0 25px;
+    transition: 0.3s ease-in-out;
   }
   @include laptop {
     padding: 0;
@@ -181,7 +194,7 @@
       border-bottom: 6px solid $color-yellow;
     }
     &_hamburger {
-      right: 15px;
+      right: 16px;
       border-color: $color-background;
     }
   }
@@ -194,7 +207,7 @@
   z-index: 98;
   text-align: right;
   background-color: $color-background;
-  box-shadow: 0px 80px 40px -5px rgba(17, 17, 17, 0.4);
+  box-shadow: 0px 20px 20px -5px rgba(17, 17, 17, 0.3);
   border-bottom: 6px solid $color-yellow;
   transition: $transition;
   @include mobile-large {
