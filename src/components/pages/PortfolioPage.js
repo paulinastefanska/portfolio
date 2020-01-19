@@ -98,7 +98,7 @@ const PortfolioPage = () => {
               </div>
             </div>
             <p className="portfolio_desc">
-              Indywidualny projekt na zakończenie bootcampu Web Developer Plus.
+              Indywidualny projekt na zakończenie Bootcampu Web Developer Plus.
               Aplikacja jest dostosowana do PWA (Progresive Web App).{" "}
               <strong>
                 Tech stack: MERN (MongoDB, Express, React (Redux, Router),

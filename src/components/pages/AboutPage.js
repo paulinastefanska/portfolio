@@ -31,14 +31,14 @@ const AboutPage = () => {
         <Col md={5}>
           <span className="about_title">Nauka</span>
           <p className="about_text">
-            Na szczęście na naukę nigdy nie jest za późno, także od początku
-            2019 roku systematycznie poszerzam swoje umiejętności. Ukończyłam
-            intensywny 9-miesięczny kurs programowania pod opieką indywidualnego
-            mentora – Bootcamp Web Developer Plus w Kodilla. Mam też za sobą
-            kilka kursów na platformie Udemy m.in. Programowanie w JavaScript,
-            React od podstaw, Node.js, Express, MongoDB oraz Zaawansowane
-            projekty CSS i JavaScript. Obecnie biorę udział w programie:{" "}
-            <q>Programiści dla Szczecina</q> - kurs pt.{" "}
+            Na szczęście na naukę nigdy nie jest za późno, także&nbsp;od
+            początku 2019 roku systematycznie poszerzam swoje umiejętności.
+            Ukończyłam intensywny 9-miesięczny kurs programowania pod opieką
+            indywidualnego mentora – Bootcamp Web Developer Plus w Kodilla. Mam
+            też za sobą kilka kursów na platformie Udemy m.in. Programowanie w
+            JavaScript, React od podstaw, Node.js, Express, MongoDB oraz
+            Zaawansowane projekty CSS i JavaScript. Obecnie biorę udział w
+            programie: <q>Programiści dla Szczecina</q> - kurs pt.{" "}
             <q>Budowanie Aplikacji Internetowych</q> odbywający się w
             Zachodniopomorskiej Szkole Biznesu w Szczecinie i od podstaw uczę
             się języka PHP i baz danych MySQL. Cały czas ćwiczę, realizując
@@ -68,7 +68,7 @@ const AboutPage = () => {
                 Cenię zasady: <q>KISS</q> oraz <q>DRY</q>.
               </li>
               <li>
-                Do działania napędza mnie rozwiązany problem, a do nauki
+                Do działania napędza mnie rozwiązany problem, a&nbsp;do nauki
                 ciekawość.
               </li>
               <li>

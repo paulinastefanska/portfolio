@@ -43,9 +43,10 @@ const HomePage = () => {
         Developer Plus w Kodilla. Mam też za sobą kilka ciekawych kursów na
         platformie Udemy. Cały czas ćwiczę i rozwijam swoje umiejętności -
         szczególnie w JavaScript i React. Obecnie biorę udział w programie{" "}
-        <q>Programiści dla Szczecina</q> i od podstaw uczę się języka PHP i baz
-        danych MySQL. Wiedzę mogę poprzeć licznymi projektami. Aktualnie szukam
-        pierwszej pracy w IT. Chętnie wezmę też udział w projektach open-source.
+        <q>Programiści dla Szczecina</q> i&nbsp;od&nbsp;podstaw uczę się języka
+        PHP i baz danych MySQL. Wiedzę mogę poprzeć licznymi projektami.
+        Aktualnie szukam pierwszej pracy w IT. Chętnie wezmę też udział w
+        projektach open-source.
       </p>
     </section>
   );
