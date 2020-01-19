@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c82164df40ede17a60e5bf4111763456",
+    "revision": "be5de18f3ae2e7adbd36648e5d6dfc25",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "38c6cf786f22a242f56f",
+    "revision": "85cde7322da334750e42",
     "url": "/portfolio/static/css/main.e5769587.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.1c548f53.chunk.js.LICENSE"
   },
   {
-    "revision": "38c6cf786f22a242f56f",
-    "url": "/portfolio/static/js/main.2ad0b1e9.chunk.js"
+    "revision": "85cde7322da334750e42",
+    "url": "/portfolio/static/js/main.a6a9b4e3.chunk.js"
   },
   {
     "revision": "16c109c584451046bd84",
     "url": "/portfolio/static/js/runtime-main.860ade9b.js"
   },
   {
-    "revision": "f6e7ce561b36e9b778ca995da8732e8f",
-    "url": "/portfolio/static/media/adminpanel.f6e7ce56.png"
+    "revision": "b886871e98f55b34183f07774da14bd1",
+    "url": "/portfolio/static/media/adminpanel.b886871e.png"
   },
   {
     "revision": "0c48d58d73f2b512496a75c0f6102a9b",
@@ -44,12 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/circle.c82b3b36.svg"
   },
   {
-    "revision": "280724d4ba7d54ce81c3617fde61c2df",
-    "url": "/portfolio/static/media/commentsapp.280724d4.png"
-  },
-  {
-    "revision": "7f81e0c4b1e579e656de40c2a18cc391",
-    "url": "/portfolio/static/media/firstgame.7f81e0c4.png"
+    "revision": "e02c14ed66d357bc9256627c7984875b",
+    "url": "/portfolio/static/media/firstgame.e02c14ed.png"
   },
   {
     "revision": "c769c48f93ec5a13864986215e1bf3b6",
@@ -60,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/folder.97c476c1.svg"
   },
   {
-    "revision": "6af82f9854aab94b3fea26dc32efa3ba",
-    "url": "/portfolio/static/media/home-pic.6af82f98.JPG"
+    "revision": "ff409445d6fd04cbae6136923ead7d84",
+    "url": "/portfolio/static/media/home-pic.ff409445.JPG"
   },
   {
-    "revision": "0598eb80fc1a2a4d7ea9b5639d4d6933",
-    "url": "/portfolio/static/media/kanbanboard.0598eb80.png"
+    "revision": "71aaca48662c989b39af2bcd30c068f1",
+    "url": "/portfolio/static/media/kanbanboard.71aaca48.png"
   },
   {
     "revision": "ad0b17d5e62b7274abc9eb897518b019",
@@ -76,27 +72,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/point.66b660d0.svg"
   },
   {
-    "revision": "0e98a83187f2444f4fab82fa5ddc20ec",
-    "url": "/portfolio/static/media/portfolio.0e98a831.png"
+    "revision": "b3caeecde21188660db412bd63feb90f",
+    "url": "/portfolio/static/media/portfolio.b3caeecd.png"
   },
   {
     "revision": "b10ce284a994985f4b025fd53bb9c49e",
     "url": "/portfolio/static/media/side-circles.b10ce284.svg"
   },
   {
-    "revision": "6b6e25aa588d89a85c6e0ad23c11f691",
-    "url": "/portfolio/static/media/snakegame.6b6e25aa.png"
+    "revision": "fc4c90228180edf2358c95e2666f3c4c",
+    "url": "/portfolio/static/media/snakegame.fc4c9022.png"
   },
   {
-    "revision": "61ca74206f284b62d048be1c9228d6e2",
-    "url": "/portfolio/static/media/techstore.61ca7420.png"
+    "revision": "d7070cffdaf170f2b3a8c62c4f6ad278",
+    "url": "/portfolio/static/media/techstore.d7070cff.png"
   },
   {
-    "revision": "d4cdc491072c7a8d1d740528fb4d4728",
-    "url": "/portfolio/static/media/todoapp.d4cdc491.png"
+    "revision": "add05f9f398ec521d833594c3d57c69f",
+    "url": "/portfolio/static/media/todoapp.add05f9f.png"
   },
   {
-    "revision": "dc2c44d8b81392baa6fb80a5413c5889",
-    "url": "/portfolio/static/media/weatherapp.dc2c44d8.png"
+    "revision": "b1b82b07ee8ee57ad9dc1c214adf7f61",
+    "url": "/portfolio/static/media/weatherapp.b1b82b07.png"
   }
 ]);
