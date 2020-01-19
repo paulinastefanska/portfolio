@@ -21,6 +21,7 @@ const Footer = () => {
         </a>
         <a
           className="footer_social"
+          aria-label="GitHub"
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/paulinastefanska"
@@ -29,6 +30,7 @@ const Footer = () => {
         </a>
         <a
           className="footer_social"
+          aria-label="LinkedIn"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/paulina-stefanska"
@@ -37,6 +39,7 @@ const Footer = () => {
         </a>
         <a
           className="footer_social footer_social--hidden"
+          aria-label="E-mail"
           target="_blank"
           rel="noopener noreferrer"
           href="mailto:web.paulinastefanska@gmail.com"
