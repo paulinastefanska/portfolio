@@ -247,8 +247,8 @@ const PortfolioPage = () => {
             </div>
             <p className="portfolio_desc">
               Pierwsza aplikacja napisana w React z użyciem Redux do zarządzania
-              stanem aplikacji. Wykorzystane narzędzie Redux DevTools pozwala
-              kontrolować akcje aplikacji oraz zarządzać stanem drzewa DOM.{" "}
+              stanem aplikacji. Wykorzystane zostało narzędzie Redux DevTools do
+              kontrolowania akcji aplikacji i zarządzania stanem drzewa DOM.{" "}
               <strong>
                 Tech stack: HTML | Sass | RWD | React + Redux | CRA - webpack |
                 npm.
@@ -319,7 +319,7 @@ const PortfolioPage = () => {
               </div>
             </div>
             <p className="portfolio_desc">
-              Pierwsza gra napisana w JS ES6 z użyciem Canvas.{" "}
+              Pierwsza gra napisana w JS z użyciem Canvas.{" "}
               <strong>Tech stack: HTML | CSS | Canvas | JavaScript.</strong>
             </p>
           </Col>

@@ -41,7 +41,7 @@ const HomePage = () => {
         programowania po stronie front-endu. Ukończyłam intensywny 9-miesięczny
         kurs programowania pod opieką indywidualnego mentora – Bootcamp Web
         Developer Plus w Kodilla. Mam też za sobą kilka ciekawych kursów na
-        platformie Udemy. Cały czas ćwiczę i razwijam swoje umiejętności -
+        platformie Udemy. Cały czas ćwiczę i rozwijam swoje umiejętności -
         szczególnie w JavaScript i React. Obecnie biorę udział w programie{" "}
         <q>Programiści dla Szczecina</q> i od podstaw uczę się języka PHP i baz
         danych MySQL. Wiedzę mogę poprzeć licznymi projektami. Aktualnie szukam
