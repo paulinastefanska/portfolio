@@ -114,7 +114,6 @@
   &_desc {
     font-size: $base-size * 1.1;
     padding: 0 12px 0;
-    text-align: justify;
     @include tablet-small {
       font-size: $base-size * 1.2;
     }
