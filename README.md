@@ -8,7 +8,7 @@
 
 - HTML,
 - Sass,
-- RWD,
+- RWD - mobile first,
 - React,
 - React Router,
 - React Transition Group,
