@@ -5,14 +5,17 @@ import { Row, Col } from "react-bootstrap";
 //img
 import folder from "../../images/folder.svg";
 import sideCircles from "../../images/side-circles.svg";
+//img portfolio
 import portfolio from "../../images/portfolio/portfolio.png";
 import techstore from "../../images/portfolio/techstore.png";
-import firstgame from "../../images/portfolio/firstgame.png";
-import adminpanel from "../../images/portfolio/adminpanel.png";
 import kanbanboard from "../../images/portfolio/kanbanboard.png";
 import commentsapp from "../../images/portfolio/commentsapp.png";
+import firstgame from "../../images/portfolio/firstgame.png";
+import adminpanel from "../../images/portfolio/adminpanel.png";
 import snakegame from "../../images/portfolio/snakegame.png";
 import ponggame from "../../images/portfolio/ponggame.png";
+import calculator from "../../images/portfolio/calculator.png";
+import colorgame from "../../images/portfolio/colorgame.png";
 import todoapp from "../../images/portfolio/todoapp.png";
 import weatherapp from "../../images/portfolio/weatherapp.png";
 
@@ -101,81 +104,8 @@ const PortfolioPage = () => {
               Indywidualny projekt na zakończenie Bootcampu Web Developer Plus.
               Aplikacja jest dostosowana do PWA (Progresive Web App).{" "}
               <strong>
-                Tech stack: MERN (MongoDB, Express, React (Redux, Router),
+                Tech stack: MERN - MongoDB, Express, React (Redux, Router),
                 Node.js | Sass | CRA - webpack | npm | Yarn.
-              </strong>
-            </p>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={6}>
-            <span className="portfolio_name">Gra Papier Kamień Nożyce</span>
-            <div className="portfolio_wrapper">
-              <img
-                src={firstgame}
-                alt="firstgame"
-                className="portfolio_project"
-              />
-              <div className="portfolio_middle">
-                <a
-                  className="portfolio_button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://paulinastefanska.github.io/game-rock-paper-scissors-v2"
-                >
-                  DEMO
-                </a>
-                <a
-                  className="portfolio_button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/paulinastefanska/game-rock-paper-scissors-v2"
-                >
-                  KOD
-                </a>
-              </div>
-            </div>
-            <p className="portfolio_desc">
-              Pierwsza gra napisana w JavaScript wyświetlająca wpisane imię
-              gracza i wybraną liczbę rund. V2 - rozszerzona o tabelę wyników.{" "}
-              <strong>
-                Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.
-              </strong>
-            </p>
-          </Col>
-          <Col md={6}>
-            <span className="portfolio_name">Panel Administracyjny</span>
-            <div className="portfolio_wrapper">
-              <img
-                src={adminpanel}
-                alt="adminpanel"
-                className="portfolio_project"
-              />
-              <div className="portfolio_middle">
-                <a
-                  className="portfolio_button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://paulinastefanska.github.io/individual-project"
-                >
-                  DEMO
-                </a>
-                <a
-                  className="portfolio_button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/paulinastefanska/individual-project"
-                >
-                  KOD
-                </a>
-              </div>
-            </div>
-            <p className="portfolio_desc">
-              Pierwszy indywidualny projekt napisany podczas Bootcampu Web
-              Developer Plus na podstawie pliku PSD od grafika.{" "}
-              <strong>
-                Tech stack: HTML | Sass | RWD | JavaScript ES5 | Photoshop | npm
-                Scripts.
               </strong>
             </p>
           </Col>
@@ -258,6 +188,79 @@ const PortfolioPage = () => {
         </Row>
         <Row>
           <Col md={6}>
+            <span className="portfolio_name">Gra Papier Kamień Nożyce</span>
+            <div className="portfolio_wrapper">
+              <img
+                src={firstgame}
+                alt="firstgame"
+                className="portfolio_project"
+              />
+              <div className="portfolio_middle">
+                <a
+                  className="portfolio_button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://paulinastefanska.github.io/game-rock-paper-scissors-v2"
+                >
+                  DEMO
+                </a>
+                <a
+                  className="portfolio_button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/paulinastefanska/game-rock-paper-scissors-v2"
+                >
+                  KOD
+                </a>
+              </div>
+            </div>
+            <p className="portfolio_desc">
+              Pierwsza gra napisana w JavaScript wyświetlająca wpisane imię
+              gracza i wybraną liczbę rund. V2 - rozszerzona o tabelę wyników.{" "}
+              <strong>
+                Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.
+              </strong>
+            </p>
+          </Col>
+          <Col md={6}>
+            <span className="portfolio_name">Panel Administracyjny</span>
+            <div className="portfolio_wrapper">
+              <img
+                src={adminpanel}
+                alt="adminpanel"
+                className="portfolio_project"
+              />
+              <div className="portfolio_middle">
+                <a
+                  className="portfolio_button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://paulinastefanska.github.io/individual-project"
+                >
+                  DEMO
+                </a>
+                <a
+                  className="portfolio_button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/paulinastefanska/individual-project"
+                >
+                  KOD
+                </a>
+              </div>
+            </div>
+            <p className="portfolio_desc">
+              Pierwszy indywidualny projekt napisany podczas Bootcampu Web
+              Developer Plus na podstawie pliku PSD od grafika.{" "}
+              <strong>
+                Tech stack: HTML | Sass | RWD | JavaScript ES5 | Photoshop | npm
+                Scripts.
+              </strong>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={6}>
             <span className="portfolio_name">Gra Wąż</span>
             <div className="portfolio_wrapper">
               <img
@@ -321,6 +324,78 @@ const PortfolioPage = () => {
             <p className="portfolio_desc">
               Pierwsza gra napisana w JS z użyciem Canvas.{" "}
               <strong>Tech stack: HTML | CSS | Canvas | JavaScript.</strong>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={6}>
+            <span className="portfolio_name">Aplikacja Kalkulator</span>
+            <div className="portfolio_wrapper">
+              <img
+                src={calculator}
+                alt="calculator"
+                className="portfolio_project"
+              />
+              <div className="portfolio_middle">
+                <a
+                  className="portfolio_button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://paulinastefanska.github.io/calculator"
+                >
+                  DEMO
+                </a>
+                <a
+                  className="portfolio_button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/paulinastefanska/calculator"
+                >
+                  KOD
+                </a>
+              </div>
+            </div>
+            <p className="portfolio_desc">
+              Prosty kalkulator napisany w JavaScript ES6 z użyciem styli
+              Bootstrap.{" "}
+              <strong>
+                Tech stack: HTML | CSS | RWD | JavaScript ES6 | Bootstrap.
+              </strong>
+            </p>
+          </Col>
+          <Col md={6}>
+            <span className="portfolio_name">Gra Kolory</span>
+            <div className="portfolio_wrapper">
+              <img
+                src={colorgame}
+                alt="colorgame"
+                className="portfolio_project"
+              />
+              <div className="portfolio_middle">
+                <a
+                  className="portfolio_button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://paulinastefanska.github.io/colorMachineGame"
+                >
+                  DEMO
+                </a>
+                <a
+                  className="portfolio_button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/paulinastefanska/colorMachineGame"
+                >
+                  KOD
+                </a>
+              </div>
+            </div>
+            <p className="portfolio_desc">
+              Gra napisana w JavaScript ES6 z wykorzystaniem programowania
+              obiektowego.{" "}
+              <strong>
+                Tech stack: HTML | CSS | RWD | JavaScript ES6 with OOP.
+              </strong>
             </p>
           </Col>
         </Row>
