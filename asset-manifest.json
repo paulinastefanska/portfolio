@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e5769587.chunk.css",
-    "main.js": "/portfolio/static/js/main.31b0fb11.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.31b0fb11.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ddbf0315.chunk.css",
+    "main.js": "/portfolio/static/js/main.71bc1a09.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.71bc1a09.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
     "static/css/2.17e5ed98.chunk.css": "/portfolio/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.1c548f53.chunk.js": "/portfolio/static/js/2.1c548f53.chunk.js",
-    "static/js/2.1c548f53.chunk.js.map": "/portfolio/static/js/2.1c548f53.chunk.js.map",
+    "static/js/2.07c61372.chunk.js": "/portfolio/static/js/2.07c61372.chunk.js",
+    "static/js/2.07c61372.chunk.js.map": "/portfolio/static/js/2.07c61372.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2431566ba4444cb6a03c63492ebbd150.js": "/portfolio/precache-manifest.2431566ba4444cb6a03c63492ebbd150.js",
+    "precache-manifest.6a12d91eff3edaaa43965ce4bb86d77a.js": "/portfolio/precache-manifest.6a12d91eff3edaaa43965ce4bb86d77a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/portfolio/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.e5769587.chunk.css.map": "/portfolio/static/css/main.e5769587.chunk.css.map",
-    "static/js/2.1c548f53.chunk.js.LICENSE": "/portfolio/static/js/2.1c548f53.chunk.js.LICENSE",
+    "static/css/main.ddbf0315.chunk.css.map": "/portfolio/static/css/main.ddbf0315.chunk.css.map",
+    "static/js/2.07c61372.chunk.js.LICENSE": "/portfolio/static/js/2.07c61372.chunk.js.LICENSE",
     "static/media/adminpanel.png": "/portfolio/static/media/adminpanel.b886871e.png",
     "static/media/bulb.svg": "/portfolio/static/media/bulb.0c48d58d.svg",
     "static/media/circle-yellow.svg": "/portfolio/static/media/circle-yellow.bf1cbdc8.svg",
     "static/media/circle.svg": "/portfolio/static/media/circle.c82b3b36.svg",
+    "static/media/colorgame.png": "/portfolio/static/media/colorgame.062717d5.png",
     "static/media/firstgame.png": "/portfolio/static/media/firstgame.e02c14ed.png",
     "static/media/flag.svg": "/portfolio/static/media/flag.c769c48f.svg",
     "static/media/folder.svg": "/portfolio/static/media/folder.97c476c1.svg",
@@ -35,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.860ade9b.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.1c548f53.chunk.js",
-    "static/css/main.e5769587.chunk.css",
-    "static/js/main.31b0fb11.chunk.js"
+    "static/js/2.07c61372.chunk.js",
+    "static/css/main.ddbf0315.chunk.css",
+    "static/js/main.71bc1a09.chunk.js"
   ]
 }
